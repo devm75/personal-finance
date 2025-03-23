@@ -30,7 +30,7 @@ export const theme = {
     },
     White: '#FFFFFF',
   },
-  typography: {
+
     typography: {
       preset1: {
         fontFamily: "'Public Sans', sans-serif",
@@ -64,7 +64,7 @@ export const theme = {
         fontFamily: "'Public Sans', sans-serif",
         fontWeight: 400, 
         fontSize: "12px",
-        lineHeight: 1.5, 
+        lineHeight: 1.5, // 150%
         letterSpacing: "0px",
       },
       preset5Bold: {
@@ -75,7 +75,7 @@ export const theme = {
         letterSpacing: "0px",
       },
     },
-  },
+
   spacing: {
     xsm: '4px',
     sm: '8px',
